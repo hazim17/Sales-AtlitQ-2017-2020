@@ -1,0 +1,55 @@
+The information below I got, and this project, is From the youtubers: codebasics
+https://www.youtube.com/playlist?list=PLeo1K3hjS3utcb9nKtanhcn8jd2E0Hp9b
+
+Tableau that I made: 
+https://public.tableau.com/app/profile/m.hazim.mu.aafii/viz/DashboardSalesAtlitQ2017-2020/DashboardsalesAtlitQ2017-2020?publish=yes
+
+
+1. Statement Problem
+- There is a company about hardware electronics = AtliQ
+- It has lots of store
+- The head of sales director want to know the trend market and else
+- ask the data departement about the data from the stores they had
+
+--------------------------------------------------------
+
+2. Project Planning => AIMS Grid
+a. Purpose / benefit
+=> To unlock sales insight that are not visible before for sales team for decision support & automate them to reduce manual time spent in data gathering.
+
+b. Client / Stakeholders
+=> Sales Director
+=> Marketing Team
+=> Customer Service Team
+=> Data & Analytics Team
+=> IT
+
+c. End Result
+=> An automated dashboard providing quick & latest sales insight in order to support data driven decision making
+
+
+d. Success Criteria
+- dashboard(s) uncovering sales order insight with latest data available
+- sales team able to take better decisions and prove 10% cost savings of total spend
+- sales analysts stop data gathering manually in order to save 20% of their business time and reinvest it value addedd activity
+
+--------------------------------------------------------
+
+Data Discovery:
+Sales management system <--> MySQL ---ETL---> Data Warehouse --> Dashboard
+
+
+Data warehouse:
+- Take data from MySQL (Online Transaction Processing System)
+
+Data Transformation:
+- ETL: Extract Transform Load
+
+Data Cleaning & merging (Data wrangling / munging)
+
+--------------------------------------------------------
+
+Next, in power BI / Tableau, arrange the scheme of the data, to be a star schema.
+We connect the relationship between transaction table and others table.
+
+Create the dashboard.
